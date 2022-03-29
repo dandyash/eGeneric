@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 28, 2022 at 08:12 PM
+-- Generation Time: Mar 29, 2022 at 01:14 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -132,13 +132,13 @@ CREATE TABLE `common_signup_master` (
   `common_gender` varchar(6) NOT NULL,
   `common_dob` date NOT NULL,
   `common_phone` bigint(10) NOT NULL,
-  `common_blood_group` text NOT NULL,
+  `common_blood_group` text DEFAULT NULL,
   `common_email` text NOT NULL,
   `pass_wd` varchar(50) NOT NULL,
   `area_id` int(3) DEFAULT NULL,
-  `city_id` int(3) NOT NULL,
-  `state_id` int(3) NOT NULL,
-  `country_id` int(3) NOT NULL,
+  `city_id` int(3) DEFAULT NULL,
+  `state_id` int(3) DEFAULT NULL,
+  `country_id` int(3) DEFAULT NULL,
   `user_type_id` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -148,7 +148,9 @@ CREATE TABLE `common_signup_master` (
 
 INSERT INTO `common_signup_master` (`common_signup_id`, `common_first_name`, `common_last_name`, `common_gender`, `common_dob`, `common_phone`, `common_blood_group`, `common_email`, `pass_wd`, `area_id`, `city_id`, `state_id`, `country_id`, `user_type_id`) VALUES
 (1, 'Anup', 'Kadiya', 'Male', '2002-01-22', 9898996085, 'B+', 'anup@gmail.com', 'anup1234', 17, 1, 4, 99, 6),
-(2, 'MedicalExpert ', 'Kadiya', 'Male', '2002-06-12', 9845133321, 'B+', 'medicalexpert@demo.com', 'qwerty', 12, 1, 4, 99, 5);
+(2, 'MedicalExpert ', 'Kadiya', 'Male', '2002-06-12', 9845133321, 'B+', 'medicalexpert@demo.com', 'qwerty', 12, 1, 4, 99, 5),
+(4, 'Demo', 'User', 'Male', '0000-00-00', 9898989898, NULL, 'demo@gmail.com', 'qwerty', NULL, NULL, NULL, NULL, 6),
+(5, 'Yash', 'Dand', 'Male', '0000-00-00', 7359745477, NULL, 'yash@gmail.com', 'qwerty', NULL, NULL, NULL, NULL, 6);
 
 -- --------------------------------------------------------
 
@@ -1246,7 +1248,7 @@ ALTER TABLE `city_master`
 -- AUTO_INCREMENT for table `common_signup_master`
 --
 ALTER TABLE `common_signup_master`
-  MODIFY `common_signup_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `common_signup_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `content_master`
