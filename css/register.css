@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-BoldItalic';
+    src: url('../fonts/Montserrat-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-BoldItalic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-BlackItalic';
+    src: url('../fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-BlackItalic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraLight.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBoldItalic';
+    src: url('../fonts/Montserrat-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraBoldItalic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraLightItalic';
+    src: url('../fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraLightItalic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('../fonts/Montserrat-Black.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-MediumItalic';
+    src: url('../fonts/Montserrat-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-MediumItalic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-LightItalic';
+    src: url('../fonts/Montserrat-LightItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-LightItalic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Italic';
+    src: url('../fonts/Montserrat-Italic.woff2') format('woff2'),
+        url('../fonts/Montserrat-Italic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+        url('../fonts/Montserrat-Light.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBoldItalic';
+    src: url('../fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBoldItalic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-ThinItalic';
+    src: url('../fonts/Montserrat-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ThinItalic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('../fonts/Montserrat-Thin.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    min-height: 100%;
+    padding: 15px;
+    background-image: linear-gradient(to bottom right, #32C69A, #ffffff);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container{
+    width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.form-img{
+    width: 40%;
+    display: flex;
+    /* justify-content: ; */
+    align-items: flex-start;
+}
+
+.login-form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    /* align-items: center; */
+    gap: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-form h2{
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    color: dimgray;
+}
+
+.login-form span{
+    color: #32C69A;
+}
+
+.password-div{
+    position: relative;
+}
+
+.password-div a i{
+    text-decoration: none;
+    color: white;
+    background-color: #32C69A;
+    padding: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+}
+
+input, select{
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    color: dimgray;
+    outline: none;
+}
+
+#username:focus, .password-div input[type='password']:focus{
+    border: 2px solid #32C69A;
+}
+
+.login-form input[type='submit']{
+    font-family: 'Montserrat-Medium';
+    font-size: 24px;
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #32C69A;
+    background-color: #32C69A;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form input[type='submit']:hover{
+    background-color: #2baf87;
+}
+
+.login-form h4{
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    color: dimgray;
+    text-align: center;
+}
+
+.create-account{
+    text-decoration: none;
+    color: #32C69A;
+    transition: all 1s;
+}
+
+.go-back-div{
+    text-align: right;
+}
+
+.go-back-div a{
+    text-decoration: none;
+    color: #32C69A;
+    font-family: 'Montserrat-SemiBoldItalic';
+    font-size: 23px;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+
+.go-back-div a:hover{
+    color: dimgray;
+}
