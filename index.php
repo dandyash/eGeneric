@@ -117,7 +117,7 @@ include("connection.php");
         <div class="container">
             <div class="flex-main-slider-header">
                 <h2>e<span>G</span>eneric</h2>
-                <p>The Generic Medicines are the medicines that are not owned by any company and due to that The Generic Medicines are much more affordable than the normal Allopathic Medicines.</p>
+                <p>The Generic Medicines are the medicines that are not owned by any company and due to that The Generic Medicines are much more affordable than the normal branded Medicines.</p>
                 <a href="#" class="btn-white">read more</a>
             </div>
         </div>
@@ -129,7 +129,7 @@ include("connection.php");
             <div class="steps-container-flex">
                 <div class="steps-intro">
                     <h6 class="green-header">easy solution</h6>
-                    <h2 class="common-header">4 easy steps to buy a generic alternative to your expensive allopathic medicine</h2>
+                    <h2 class="common-header">4 easy steps to buy a generic alternative to your expensive branded medicine</h2>
                     <span class="green-line">asdavdbvsvrdvjnsrfdvjcnkrnjs</span>
                 </div>
                 <div class="steps-container">
@@ -141,12 +141,12 @@ include("connection.php");
                     <div class="steps-card">
                         <i class="fas fa-search"></i>
                         <h6>Search Your Medicine</h6>
-                        <p>After Login search for the generic medicine needed. If the generic medicine is not known search for the allopathic medicine</p>
+                        <p>After Login search for the generic medicine needed. If the generic medicine is not known search for the prescribed medicine</p>
                     </div>
                     <div class="steps-card">
                         <i class="fas fa-pills"></i>
                         <h6>Get Generic Alternative</h6>
-                        <p>After searching the appropriate allopathic medicine you will get its generic alternative based on the content used in the medicine.</p>
+                        <p>After searching the appropriate medicine you will get its generic alternative based on the content used in the medicine.</p>
                     </div>
                     <div class="steps-card">
                         <i class="fas fa-cart-shopping"></i>

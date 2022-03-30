@@ -119,7 +119,7 @@ include("connection.php");
                 </div>
                 <div class="right-filter">
                     <select name="medi-type" id="medi-type" onchange="medicine_type_display()">
-                        <option value="Allopathic">Allopathic</option>
+                        <option value="Allopathic">Branded</option>
                         <option value="Generic">Generic</option>
                         <option value="Both">Both</option>
                     </select>
@@ -149,7 +149,7 @@ include("connection.php");
                                 <div class="medicine-img">
                                     <img src="images/capsule.svg" alt="">
                                     <div class="medicine-type">
-                                        <p>Allopathic</p>
+                                        <p>Branded</p>
                                     </div>
                                 </div>
                                 <div class="medicine-desc">
